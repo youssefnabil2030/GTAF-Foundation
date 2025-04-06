@@ -1,38 +1,44 @@
+document.querySelector('#app').innerHTML = `
+  <header>
+    <h1>Green Taxation and Accountability Framework (GTAF)</h1>
+    <p>Empowering a Sustainable Future Through Green Policy Innovation</p>
+  </header>
 
-import './style.css'
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#impact">Impact</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-document.querySelector('#app').innerHTML=`<div="main-body"></div>`;
+  <section id="about">
+    <h2>About GTAF</h2>
+    <p>The Green Taxation and Accountability Framework is a national initiative aiming to integrate environmental responsibility into fiscal policy. Founded by Mina Gamal, it focuses on encouraging sustainability through green taxation, transparency, and ESG-focused business models.</p>
+  </section>
 
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Consulting on green tax policies</li>
+      <li>Legal audits and accountability frameworks</li>
+      <li>Capacity building workshops for public/private sectors</li>
+      <li>ESG compliance and reporting support</li>
+    </ul>
+  </section>
 
-// Smooth scrolling for navigation links
-document.querySelectorAll('nav a').forEach(anchor => {
-  anchor.addEventListener('click', function(e) {
-    e.preventDefault()
-    const section = document.querySelector(this.getAttribute('href'))
-    section.scrollIntoView({ behavior: 'smooth' })
-  })
-})
+  <section id="impact">
+    <h2>Impact</h2>
+    <p>GTAF has already influenced environmental clauses in taxation laws and trained over 1,000 professionals across Egypt. The initiative is aligned with Egypt Vision 2030 and contributes directly to IUCN’s transformative conservation goals.</p>
+  </section>
 
-// Contact button click handler
-document.querySelector('.cta-button').addEventListener('click', function(e) {
-  e.preventDefault()
-  alert('Thank you for your interest! We will get back to you soon.')
-})
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@gtaf.org</p>
+    <p>Phone: +20 100 123 4567</p>
+    <p>Follow us on <a href="#">LinkedIn</a></p>
+  </section>
 
-// Scroll animation with enhanced timing
-const observerOptions = {
-  threshold: 0.2,
-  rootMargin: '0px 0px -50px 0px'
-}
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible')
-    }
-  })
-}, observerOptions)
-
-document.querySelectorAll('.scroll-animation').forEach(element => {
-  observer.observe(element)
-})
+  <footer>
+    <p>&copy; 2025 GTAF - Green Taxation and Accountability Framework. All rights reserved.</p>
+  </footer>
+`;
