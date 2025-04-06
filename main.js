@@ -16,21 +16,23 @@ document.querySelector('#app').innerHTML = `
 
   <section id="about">
     <h2>About GTAF</h2>
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="About Us" class="section-img"/>
     <p>The Green Taxation and Accountability Framework is a national initiative aiming to integrate environmental responsibility into fiscal policy. Founded by Mina Gamal, it focuses on encouraging sustainability through green taxation, transparency, and ESG-focused business models.</p>
   </section>
 
   <section id="services">
     <h2>Our Services</h2>
     <ul>
-      <li>Consulting on green tax policies</li>
-      <li>Legal audits and accountability frameworks</li>
-      <li>Capacity building workshops for public/private sectors</li>
-      <li>ESG compliance and reporting support</li>
+      <li>🌿 Consulting on green tax policies</li>
+      <li>📊 Legal audits and accountability frameworks</li>
+      <li>📚 Capacity building workshops for public/private sectors</li>
+      <li>✅ ESG compliance and reporting support</li>
     </ul>
   </section>
 
   <section id="impact">
     <h2>Impact</h2>
+    <img src="https://images.unsplash.com/photo-1581092334426-050f1fe6566b" alt="Impact" class="section-img"/>
     <p>GTAF has already influenced environmental clauses in taxation laws and trained over 1,000 professionals across Egypt. The initiative is aligned with Egypt Vision 2030 and contributes directly to IUCN’s transformative conservation goals.</p>
   </section>
 
