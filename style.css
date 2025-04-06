@@ -307,3 +307,11 @@ ul li:hover .service-image {
 #contact {
     background: linear-gradient(135deg, #ffffff 0%, #f5f9f7 100%);
 }
+
+.service-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
