@@ -1,5 +1,8 @@
 document.querySelector('#app').innerHTML = `
-  <header>
+    <header>
+  <div class="logo">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzJlY2M3MSIgZD0iTTEyIDJMNCAxNGgxNkwxMiAyem0wIDRsNCA4SDhsNC04em0wIDE2YTIgMiAwIDEwMC00IDIgMiAwIDAwMCA0eiIvPjwvc3ZnPg==" alt="GTAF Logo">
+    </div>
     <h1>Green Taxation and Accountability Framework (GTAF)</h1>
     <p>Empowering a Sustainable Future Through Green Policy Innovation</p>
   </header>
