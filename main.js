@@ -23,10 +23,10 @@ document.querySelector('#app').innerHTML = `
   <section id="services">
     <h2>Our Services</h2>
     <ul>
-      <li>🌿 Consulting on green tax policies</li>
-      <li>📊 Legal audits and accountability frameworks</li>
-      <li>📚 Capacity building workshops for public/private sectors</li>
-      <li>✅ ESG compliance and reporting support</li>
+      <li><img src="https://img.icons8.com/ios/452/consulting.png" alt="Consulting" class="service-img"/> Consulting on green tax policies</li>
+      <li><img src="https://img.icons8.com/ios/452/legal.png" alt="Legal" class="service-img"/> Legal audits and accountability frameworks</li>
+      <li><img src="https://img.icons8.com/ios/452/training.png" alt="Training" class="service-img"/> Capacity building workshops for public/private sectors</li>
+      <li><img src="https://img.icons8.com/ios/452/checked.png" alt="ESG" class="service-img"/> ESG compliance and reporting support</li>
     </ul>
   </section>
 
