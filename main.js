@@ -1,7 +1,7 @@
 
 import './style.css'
 
-document.querySelector('#app').innerHTML
+document.querySelector('#app').innerHTML=`<div="main-body"></div>`;
 
 
 // Smooth scrolling for navigation links
