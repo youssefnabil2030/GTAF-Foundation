@@ -16,7 +16,9 @@ document.querySelector('#app').innerHTML = `
 
   <section id="about">
     <h2>About GTAF</h2>
+    <div id="about-image>
     <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="About Us" class="section-img"/>
+    </div>
     <p>The Green Taxation and Accountability Framework is a national initiative aiming to integrate environmental responsibility into fiscal policy. Founded by Mina Gamal, it focuses on encouraging sustainability through green taxation, transparency, and ESG-focused business models.</p>
   </section>
 
