@@ -293,7 +293,7 @@ ul li:hover .service-image {
 
 /* Add smooth gradient backgrounds to sections */
 #about {
-    background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 0%);
     width: 10px;
     height: 10px;
 }
