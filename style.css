@@ -7,6 +7,11 @@ body {
     color: #2c3e50;
 }
 
+
+#about-image {
+    width: 10px;
+    height: 10px:
+}
 header {
     background: linear-gradient(120deg, #2ecc71 0%, #27ae60 100%);
     color: white;
